@@ -1,0 +1,12 @@
+.h1--active {
+    font-family: 'Ibarra Real Nova', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 50px;
+    /* or 100% */
+    
+    letter-spacing: -0.446429px;
+    
+    color: #33323D;
+}

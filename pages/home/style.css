@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    min-height: 100vh;
+    min-width: 100vw;   
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* ACTUAL PAGE HIGHLIGHT */
+
+
+.li .li__a--color{
+    color: #5FB4A2;
+}
+
+/* HERO SECTION */
+
+
+.hero {
+    display: flex;
+    
+    max-width: 1110px;
+    min-height: 600px;
+    margin: 0 165px 150px 165px;
+
+    background-size: cover;
+    background-image: url(/front/desafios/desafio-frontend-modulo1-integral/assets/home/image-homepage-hero.jpg);
+    
+}
+
+.hero__div {
+    width: 445px;
+    height: 357px;
+    align-self:flex-end;
+
+    background-color: #FFF;
+}
+
+.div__h1 {
+    padding: 56px 28px 53px 27px;
+}
+
+/* ABOUT SECTION */
+
+.about {
+    display: flex;
+    margin-bottom: 133px;
+}
+
+ .about-right {
+    display:flex;
+    flex-direction: column;
+    justify-content: stretch;
+    padding: 51px 0 46px 0;
+    margin-right: 164px;
+    border-top: 1px solid rgba(51, 50, 61, 0.15);
+    border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+    
+}
+
+.about__img {
+    min-width: 540px;
+    min-height: 600px;
+    margin:0 140px 0 165px;
+}
+
+.about-right__h2 {
+    margin-bottom: 28px;
+}
+
+.about-right__p {
+    margin-bottom: 24px;
+}

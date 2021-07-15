@@ -1,0 +1,32 @@
+.buttom-arrow--active {
+    all: unset;
+    cursor: pointer;
+    display: flex;
+
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Public Sans', sans-serif;
+
+    background-color: #203A4C;
+    color: #FFF;
+}
+
+.buttom-arrow--active:hover{
+    background-color: #5FB4A2;
+}
+
+.button .button__img {
+    padding: 18px 16px;
+
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.button__span {
+    padding: 17px 35px;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+}
