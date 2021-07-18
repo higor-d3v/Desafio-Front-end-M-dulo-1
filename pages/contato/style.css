@@ -66,6 +66,10 @@
     
 }
 
+.inputs__email:focus, .inputs__msg:focus, .inputs__name:focus {
+    border: 3px solid black;
+}
+
 .input__button {
     all: unset;
     color: #FFF;
@@ -83,6 +87,7 @@
     letter-spacing: 2px;
     text-transform: uppercase;
 }
+
 
 .input__button:hover {
     background-color:#5FB4A2;
