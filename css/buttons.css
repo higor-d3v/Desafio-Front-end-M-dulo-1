@@ -1,7 +1,10 @@
-.buttom-arrow--active {
+/* BOTÃO PRIMÁRIO */
+
+
+
+.button-primary {
     all: unset;
     cursor: pointer;
-    display: flex;
 
     font-size: 12px;
     line-height: 14px;
@@ -13,20 +16,48 @@
     color: #FFF;
 }
 
-.buttom-arrow--active:hover{
-    background-color: #5FB4A2;
+.button-primary:hover{
+    background-color: rgb(95, 180, 162);
 }
 
-.button .button__img {
+.button-primary:hover path{
+    stroke: white;
+}
+
+.button-primary__img {
     padding: 18px 16px;
 
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(36, 36, 36, 0.1);
 }
 
-.button__span {
-    padding: 17px 35px;
-    font-weight: 100;
+
+/* BOTÕES SECUNDÁRIOS */
+
+
+
+.btn-secondary-light {
+    all: unset;
+    border: 1px solid #000000; 
+    display: flex; 
+
+    text-transform: uppercase;
+    font-family: 'Public Sans', sans-serif;
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.btn-secondary-light:hover {
+    color:#FAFAFA;
+    background-color:#33323D;
+}
+
+.btn-secondary-light .a {
+    color: #33323D;
+    padding: 20px 40px;  
+}
+
+.btn-secondary-light:hover .a {
+    color: #FFF;
 }
