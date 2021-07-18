@@ -63,7 +63,7 @@
     display: flex;
     justify-content: space-between;
     width: 80vw;
-    height: 100vh;
+    height: 80vh;
 }
 
 .about-right {
@@ -71,7 +71,7 @@
     flex-direction: column;
     justify-content: center;
     width: 30vw;
-    height: 100vh;
+    height: 80vh;
     margin-left: 10vw;
     border-top: 1px solid rgba(51, 50, 61, 0.15);
     border-bottom: 1px solid rgba(51, 50, 61, 0.15);    
@@ -79,7 +79,7 @@
 
 .about__img {
     max-width: 45vw;
-    max-height: 100vh;
+    max-height: 80vh;
 }
 
 .about-right__h2 {
